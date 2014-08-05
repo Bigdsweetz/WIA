@@ -1,0 +1,123 @@
+/*Main Body*/
+body {
+background: url('../img/bg1.jpg')no-repeat center center fixed; #000000;
+background-size: cover;
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+   	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+   
+}
+
+a {
+  color: #2ba6cb;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #5da423; }
+  a img {
+    border: none; }
+
+/*For the sliding menu*/
+.panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
+.wrap { 
+    position: relative; 
+}
+
+/*For the Galleryy*/
+img[src$=".jpg"] {
+transition-property: none;
+transition-duration: 1s;
+transition-timing-function: ease;
+trasition-delay: 0;
+}
+
+.heading h1{
+width: 90%;
+margin: 0 auto;
+padding: 20px;
+color: #FFF;
+background: #000;
+text-align: center;
+font-family:"Comic Sans MS", cursive;
+
+}
+
+.container{
+width: 90%;
+margin: 0 auto;
+padding: 20px;
+background: #000;
+text-align: center;
+}
+
+.resize {
+width: 250px;
+height: 250px;
+padding-right: 10px;
+
+}
+
+/*--Final Fantasy--*/
+img[src="images/1.jpg"]:hover{
+transform: rotate(5deg);
+}
+/*--Tomb Raider--*/
+img[src="images/2.jpg"]:hover{
+transform: translate(10px,10px);
+}
+/*--Mirror's Edge--*/
+img[src="images/3.jpg"]:hover{
+transform: rotate(-5deg);
+}
+/*--Metroid--*/
+img[src="images/4.jpg"]:hover{
+transform: translate(10px,10px);
+}
+/*--Pokemon--*/
+img[src="images/5.jpg"]:hover{
+transform: rotate(5deg);
+}
+/*--Portal--*/
+img[src="images/6.jpg"]:hover{
+transform: translate(10px,10px);
+}
+/*--Street Fighter--*/
+img[src="images/7.jpg"]:hover{
+transform: rotate(-5deg);
+}
+/*--Halo--*/
+img[src="images/8.jpg"]:hover{
+transform: translate(10px,10px);
+}
+/*--Mortal Kombat--*/
+img[src="images/9.jpg"]:hover{
+transform: rotate(7deg);
+}
+
+
+
+
+/*-- footer --*/
+
+footer {
+	width: 90%;
+margin: 0 auto;
+padding: 20px;
+color: #FFF;
+/*background: #000;*/
+text-align: center;
+font-family:"Comic Sans MS", cursive;
+}
+
+footer p {
+font-size: 25pt;
+}	

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>The Opinion Point</title>
+		 <link href="css/foundation.css" rel="stylesheet">
+    	<link href="css/main.css" rel="stylesheet">
+        <link href="css/chart.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="css/chart_ie.css" />
+		<![endif]-->
+		 <script src="js/vendor/modernizr.js"></script>
+	</head>
+	<body>
+    <div class="masthead">
+        <div class="wrap push" style=
+        "left: 0px; transition: left 300ms ease 0s;">
+            <a class="menu-link" href="#menu">☰ MENU</a>
+
+        </div>
+        <!--/.wrap -->
+    </div>
+    <!--/.masthead-->
+
+<div class="wrap push" style="left: 0px; transition: left 300ms ease 0s;">
+    </div>
+    <!--/.wrap-->
+
+
+     <nav class="panel" id="menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+
+
+            <li><a href="video.html">Video's</a>
+            </li>
+
+
+            <li><a href="snake.html">Snake</a>
+            </li>
+            
+            
+            <li><a href="draw.html">Painting Pictures</a>
+            </li>
+
+
+            <li><a href="chart.html">#HumbleBrag</a>
+            </li>
+        </ul>
+    </nav>
+    
+    
+ <div class="row">
+    <div class="large-12 columns">
+     	
+  		<div id="hidethis" style="">
+		<p class="debug">
+			<span class="chartHeight">0</span><br/> 
+			<span class="maxValue">0</span><br/>
+			<span class="valueMultiplier">0</span><br/>
+			<span class="highestYlabel">0</span><br/>
+			<span class="chartHeightArea">0</span><br/>
+			<span class="chartScale">0</span><br/>
+		</p>
+        </div>
+        <input type="button" onclick="showHide('hidethis')" value="Show Debug"> 
+		<div class="chart-container">
+			<div class="chart-title">
+				<h2>Console Sales 2ND Quarter 2014</h2>
+				<p>Units sold in the hundreds</p>
+			</div>
+			<div class="chart-content">
+				<div class="chart-y-axis">
+					<p style="top:0px;">1000</p>
+					<p style="bottom:225px;">750</p>
+					<p style="bottom:150px;">500</p>
+					<p style="bottom:75px;">250</p>
+					<p style="bottom:0px;">0</p>
+				</div> 
+             
+
+    			
+    
+				<div class="chart-area" bar-spacing="30"> 
+					<div bar-value="333" label="xbox1"    class="chart-bar xbox1"></div>
+					<div bar-value="999" label="PS4" 	  class="chart-bar PS4"></div>
+					<div bar-value="500" label="3DS"   	  class="chart-bar nintendo"></div>
+					<div bar-value="400" label="Vita"     class="chart-bar vita"></div>
+					<div bar-value="300" label="Wii U"    class="chart-bar WiiU"></div>
+				</div>
+                    </div>
+				<div class="chart-x-axis"></div>
+			</div> 
+		</div>
+	 </div>
+  </div>
+  
+    
+    <footer class="row">
+  <div class="large-12 columns"><hr/>
+    <div class="row">
+ 
+      <div class="large-12 columns">
+            <p>© The Opinion Point</p>
+      </div>
+    </div>
+  </div>
+  </footer>
+<script src="js/jquery-1.6.1.min.js"></script>  
+<script src="js/chart.js"></script>    
+<script src="js/vendor/jquery.js"></script> 
+<script src="js/foundation.min.js"></script> 
+<script src="js/main.js"></script>
+<script src="js/snake.js"></script>  
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.big-slide.js"></script> 
+
+<script type="text/javascript">
+function showHide(divId){
+    var theDiv = document.getElementById(divId);
+	
+    if(theDiv.style.display=='block'){
+        theDiv.style.display='none';
+		
+    }else{
+        theDiv.style.display='block';
+		
+    }   
+}
+</script>
+
+<script>
+  $(document).foundation();
+    </script>
+</body>
+</html>
